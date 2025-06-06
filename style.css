@@ -123,6 +123,10 @@ video {
     font-family: 'MedievalSharp', cursive;  
 }
 
+.hidden-audio {
+  display: none;
+}
+
 /* --- Responsividade para dispositivos móveis --- */
 @media (max-width: 600px) {
   body {
