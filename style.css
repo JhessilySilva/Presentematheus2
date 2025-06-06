@@ -127,6 +127,11 @@ audio {
   outline: none;
 }
 
+.tempojun{
+    text-align: center;
+    font-family: 'MedievalSharp', cursive;  
+}
+
 /* --- Responsividade para dispositivos móveis --- */
 @media (max-width: 600px) {
   body {
