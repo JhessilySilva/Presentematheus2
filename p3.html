@@ -16,117 +16,64 @@
     <audio id="audio" autoplay loop class="hidden-audio">
       <source src="audio.mp3" type="audio/mp3">
     </audio>
-    </div>
-  <div class="fotos/videos">
-    <div>
-        <h2>Nossas Memórias</h2>
-    </div>
-    <div class="conteinerfotos">
-    <div class="imfotos">
-    <img src="f1.jpg" alt="">
-    </div>
-    <div class="imfotos">
-    <img src="f2.jpg" alt="">
-    </div>
-    <div class="imfotos">
-    <img src="f3.jpg" alt="">
-    </div>
-    <div class="imfotos">
-    <img src="f4.jpg" alt="">
-    </div>
-    <div class="imfotos">
-    <img src="f5.jpg" alt="">
-    </div>
-    </div>
-    
-    <div class="conteinervid">
-    <div class="vvideo">
-    <video id="video" controls width="600">
-      <source src="v1.mp4" type="video/mp4">
-      Seu navegador não suporta a tag de vídeo.
-    </video>
-    </div>
-    <div class="vvideo">
-    <video id="video" controls width="600">
-      <source src="v2.mp4" type="video/mp4">
-      Seu navegador não suporta a tag de vídeo.
-    </video>
-    </div>
-    <div class="vvideo">
-    <video id="video" controls width="600">
-      <source src="v3.mp4" type="video/mp4">
-      Seu navegador não suporta a tag de vídeo.
-    </video>
-    </div>
-    <div class="vvideo">
-    <video id="video" controls width="600">
-      <source src="v4.mp4" type="video/mp4">
-      Seu navegador não suporta a tag de vídeo.
-    </video>
-    </div>
-    <div class="vvideo">
-    <video id="video" controls width="600">
-      <source src="v5.mp4" type="video/mp4">
-      Seu navegador não suporta a tag de vídeo.
-    </video>
-    </div>
-    <div class="vvideo">
-    <video id="video" controls width="600">
-      <source src="v6.mp4" type="video/mp4">
-      Seu navegador não suporta a tag de vídeo.
-    </video>
-    </div>
-    <div class="vvideo">
-    <video id="video" controls width="600">
-      <source src="v7.mp4" type="video/mp4">
-      Seu navegador não suporta a tag de vídeo.
-    </video>
-    </div>
-    <div class="vvideo">
-    <video id="video" controls width="600">
-      <source src="v8.mp4" type="video/mp4">
-      Seu navegador não suporta a tag de vídeo.
-    </video>
-    </div>
-    <div class="vvideo">
-    <video id="video" controls width="600">
-      <source src="v9.mp4" type="video/mp4">
-      Seu navegador não suporta a tag de vídeo.
-    </video>
-    </div>
-    <div class="vvideo">
-    <video id="video" controls width="600">
-      <source src="v10.mp4" type="video/mp4">
-      Seu navegador não suporta a tag de vídeo.
-    </video>
-    </div>
-    <div class="vvideo">
-    <video id="video" controls width="600">
-      <source src="v11.mp4" type="video/mp4">
-      Seu navegador não suporta a tag de vídeo.
-    </video>
-    </div>
-    <div class="vvideo">
-    <video id="video" controls width="600">
-      <source src="v12.mp4" type="video/mp4">
-      Seu navegador não suporta a tag de vídeo.
-    </video>
-    </div>
-    <div class="vvideo">
-    <video id="video" controls width="600">
-      <source src="v13.mp4" type="video/mp4">
-      Seu navegador não suporta a tag de vídeo.
-    </video>
-    </div>
-    <div class="vvideo">
-    <video id="video" controls width="600">
-      <source src="v14.mp4" type="video/mp4">
-      Seu navegador não suporta a tag de vídeo.
-    </video>
-    </div>
-    </div>
-
   </div>
+
+  <div class="containermemorias">
+      <img class="carrossel-midia ativo" src="f1.jpg">
+      <img class="carrossel-midia" src="f2.jpg">
+      <img class="carrossel-midia" src="f3.jpg">
+      <img class="carrossel-midia" src="f4.jpg">
+      <img class="carrossel-midia" src="f5.jpg">
+      <video class="carrossel-midia" controls width="600"><source src="v1.mp4" type="video/mp4"></video>
+      <video class="carrossel-midia" controls width="600"><source src="v2.mp4" type="video/mp4"></video>
+      <video class="carrossel-midia" controls width="600"><source src="v3.mp4" type="video/mp4"></video>
+      <video class="carrossel-midia" controls width="600"><source src="v4.mp4" type="video/mp4"></video>
+      <video class="carrossel-midia" controls width="600"><source src="v5.mp4" type="video/mp4"></video>
+      <video class="carrossel-midia" controls width="600"><source src="v6.mp4" type="video/mp4"></video>
+      <video class="carrossel-midia" controls width="600"><source src="v7.mp4" type="video/mp4"></video>
+      <video class="carrossel-midia" controls width="600"><source src="v8.mp4" type="video/mp4"></video>
+      <video class="carrossel-midia" controls width="600"><source src="v9.mp4" type="video/mp4"></video>
+      <video class="carrossel-midia" controls width="600"><source src="v10.mp4" type="video/mp4"></video>
+      <video class="carrossel-midia" controls width="600"><source src="v11.mp4" type="video/mp4"></video>
+      <video class="carrossel-midia" controls width="600"><source src="v12.mp4" type="video/mp4"></video>
+      <video class="carrossel-midia" controls width="600"><source src="v13.mp4" type="video/mp4"></video>
+      <video class="carrossel-midia" controls width="600"><source src="v14.mp4" type="video/mp4"></video>
+
+    <div class="controles">
+      <button onclick="mudarSlide(-1)">Anterior</button>
+      <button onclick="mudarSlide(1)">Próximo</button>
+    </div>
+  </div>
+
+  <script>
+    let indiceAtual = 0;
+    const midias = document.querySelectorAll('.carrossel-midia');
+
+    function mostrarSlide(index) {
+      midias.forEach((el, i) => {
+        el.classList.remove('ativo');
+        if (el.tagName === "VIDEO") {
+          el.pause();
+          el.currentTime = 0;
+        }
+        if (i === index) {
+          el.classList.add('ativo');
+        }
+      });
+    }
+
+    function mudarSlide(direcao) {
+      indiceAtual += direcao;
+      if (indiceAtual < 0) indiceAtual = midias.length - 1;
+      if (indiceAtual >= midias.length) indiceAtual = 0;
+      mostrarSlide(indiceAtual);
+    }
+
+    mostrarSlide(indiceAtual);
+  </script>
+
+  
+
   <div class="contador-container">
    <div class = "tempojun"><h3>Nosso tempo juntos:</h3></div>
     <div class="tempo">
