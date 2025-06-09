@@ -128,33 +128,18 @@ nav a:hover {
   display: none;
 }
 
-/* --- Responsividade para dispositivos móveis ---
 @media (max-width: 600px) {
-  body {
-    font-size: 4vw;
-    padding: 10px;
-  }
+    .carrossel-midia {
+      max-height: 50vh;
+    }
 
-  nav {
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px;
-  }
+    .controles button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
 
-  .textinicio {
-    padding: 10px;
-  }
-
-  video, .fotos img, .imfotos img {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  .conteinerfotos,
-  .conteinervid {
-    flex-direction: column;
-    align-items: center;
-  }
+    .carrossel-container {
+      height: auto;
+      min-height: 100vh;
+    }
 }
-
-*/
