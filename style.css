@@ -1,6 +1,7 @@
 body {
   background: linear-gradient(to bottom, rgb(255, 146, 146), rgb(253, 73, 73), rgb(255, 146, 146) );  
   text-align: center;
+  align-items: center;
   font-family: 'MedievalSharp', cursive;
   margin: 0;
   padding: 0;
@@ -43,50 +44,50 @@ nav a:hover {
   padding: 20px;
 }
 
-.video-container {
-  margin-top: 20px;
-}
 
-video {
-  height: 1000px;
-  width: 1000px;
-}
+  .carrossel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
 
-.fotos img{
-    height: 800px;
-    width: 800px;
+  .carrossel-midia {
+    max-width: 90vw;
+    max-height: 70vh;
+    display: none;
+    margin: auto;
+  }
 
-}
+  .carrossel-midia.ativo {
+    display: block;
+  }
 
-.conteinerfotos{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-}
+  .controles {
+    margin-top: 20px;
+  }
 
-.imfotos img{
-  height: 300px;
-  width: 300px;
-  border-radius: 10%;
-}
+  .controles button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #ffcece;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
 
-.conteinervid{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-}
-
-.vvideo video{
-  height: 300px;
-  width: 300px;
-  border-radius: 10%;
-}
+  .controles button:hover {
+    background-color: #ffcece;
+    color: white;
+  }
 
 .contador-container {
   padding: 30px 10px;
   margin-top: 50px;
+  margin-bottom: 20px; /* espaço entre imagem e contador */
 }
 
 .tempo {
@@ -127,7 +128,7 @@ video {
   display: none;
 }
 
-/* --- Responsividade para dispositivos móveis --- */
+/* --- Responsividade para dispositivos móveis ---
 @media (max-width: 600px) {
   body {
     font-size: 4vw;
@@ -155,3 +156,5 @@ video {
     align-items: center;
   }
 }
+
+*/
