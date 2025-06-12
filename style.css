@@ -45,15 +45,6 @@ nav a:hover {
 }
 
 
-  .containermemorias {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    margin: auto;
-    overflow: hidden;
-  }
-
   .carrossel-container {
     display: flex;
     flex-direction: column;
@@ -63,21 +54,14 @@ nav a:hover {
   }
 
   .carrossel-midia {
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    max-width: 600px;
+    max-width: 90vw;
+    max-height: 70vh;
+    display: none;
+    margin: auto;
   }
 
-
   .carrossel-midia.ativo {
-    opacity: 1;
-    position: relative;
-    z-index: 1;
+    display: block;
   }
 
   .controles {
