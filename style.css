@@ -2,10 +2,14 @@ body {
   background: linear-gradient(to bottom, rgb(255, 146, 146), rgb(253, 73, 73), rgb(255, 146, 146) );  
   text-align: center;
   align-items: center;
-  font-family: 'MedievalSharp', cursive;
+  font-family: 'Quicksand', sans-serif;
   margin: 0;
   padding: 0;
   font-size: 40px;
+}
+
+h1, h2 {
+  font-family: 'Dancing Script', cursive;
 }
 
 nav {
