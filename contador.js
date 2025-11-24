@@ -1,5 +1,5 @@
 function atualizarContador() {
-  const inicio = new Date("2025-05-17T00:00:00");
+  const inicio = new Date("2025-02-19T00:00:00");
   const agora = new Date();
 
   let anos = agora.getFullYear() - inicio.getFullYear();
@@ -45,3 +45,4 @@ function atualizarContador() {
 
 setInterval(atualizarContador, 1000);
 atualizarContador();
+
